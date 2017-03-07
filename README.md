@@ -1,20 +1,60 @@
-# IANA tz data
+# IANA Tz Data
 
-Npm module for an ***unofficial*** JSON binding for [IANA timezone data](https://www.iana.org/time-zones).
+***Unofficial*** JSON distribution of *zdumped* [IANA timezone data][].
 
-## Goal
+It should be noted that a tabuar text file (not JSON) is the "official" format for the [IANA timezone data][]. The JSON data contained in this package is provided as a convenience for the development community, and is programatically generated from the corresponding text files using the JSON conversion utility provided here.
 
-- Allow i18n libraries to define IANA timezone data as versioned "peer" dependency.
+## Goals
+
+- The data in this package is intended to serve as a common reference point for most JavaScript packages.
+- Allow i18n libraries to define IANA timezone data as versioned dependency.
+
+### What's not included
+
+No code other than the conversion utility is included.
+
+The official data has additional information and has a different structure than what's distributed here. The official data has Zones and Rules
+
+### What's included
+
+A JSON representation of the timezone transitions (actually, the output of `zdump -v`) for every timezone ids, which is what moment-timezone, globalize, and perhaps other JavaScript library use to calculate a date in a specific timezone ids. The structure looks like the below.
+
+```
+{
+  "zoneData": {
+    ...
+    "America": {
+      ...
+      "New_York": {
+        abbrs: [],
+        untils: [],
+        offsets: []
+      }
+      ...
+    }
+  }
+}
+```
+
+## Status
+
+Latest official release is version 2017a, published on 2017-02-28.
 
 ## Usage
 
-On the `package.json` of your i18n library, define its IANA timezone data dependency.
+Installation using [NPM](https://www.npmjs.com):
 
-    "dependencies": {
-      "iana-tz-data": ">=2017.x"
-    }
+```
+npm install --save iana-tz-data
+```
 
-On your application, access IANA timezone JSON data using `require("iana-tz-data")`.
+We follow a semver corresponding version based on the official version. The major version corresponds to the year and the minor corresponds to the letter. The patch version is independent and used for any necessary package fixes.
+
+| Official version | Our corresponding semver version |
+| ---------------- | -------------------------------- |
+| `2017a`          | `2017.0`                         |
+
+On your application, you can access IANA timezone JSON data by importing the `"iana-tz-data"` module.
 
 ```javascript
 import IANATimezoneData from "iana-tz-data";
@@ -23,3 +63,5 @@ import IANATimezoneData from "iana-tz-data";
 ## License
 
 MIT © [Rafael Xavier de Souza](http://rafael.xavier.blog.br)
+
+[IANA timezone data]: https://www.iana.org/time-zones

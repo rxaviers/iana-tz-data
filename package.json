@@ -23,7 +23,7 @@
     "email": "rxaviers@gmail.com",
     "url": "http://rafael.xavier.blog.br"
   },
-  "main": "iana-tz.json",
+  "main": "iana-tz-data.json",
   "dependencies": {
   },
   "devDependencies": {
