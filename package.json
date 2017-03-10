@@ -1,6 +1,6 @@
 {
   "name": "iana-tz-data",
-  "version": "0.0.1-pre",
+  "version": "0.0.1",
   "keywords": [
     "IANA",
     "JSON",
@@ -24,8 +24,6 @@
     "url": "http://rafael.xavier.blog.br"
   },
   "main": "iana-tz-data.json",
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
