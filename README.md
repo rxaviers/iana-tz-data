@@ -28,7 +28,8 @@ A JSON representation of the timezone transitions (actually, the output of `zdum
       "New_York": {
         abbrs: [],
         untils: [],
-        offsets: []
+        offsets: [],
+        isdsts: []
       }
       ...
     }
