@@ -2,7 +2,7 @@
 
 ***Unofficial*** JSON distribution of *zdumped* [IANA timezone data][].
 
-It should be noted that a tabuar text file (not JSON) is the "official" format for the [IANA timezone data][]. The JSON data contained in this package is provided as a convenience for the development community, and is programatically generated from the corresponding text files using the JSON conversion utility provided here.
+It should be noted that a tabular text file (not JSON) is the "official" format for the [IANA timezone data][]. The JSON data contained in this package is provided as a convenience for the development community, and is programatically generated from the corresponding text files using the JSON conversion utility provided here.
 
 ## Goals
 
