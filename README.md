@@ -39,7 +39,7 @@ A JSON representation of the timezone transitions (actually, the output of `zdum
 
 ## Status
 
-Latest official release is version 2017a, published on 2017-02-28.
+Latest official release is version 2017b, published on 2017-03-20.
 
 ## Usage
 
@@ -53,6 +53,7 @@ We follow a semver corresponding version based on the official version. The majo
 
 | Official version | Our corresponding semver version |
 | ---------------- | -------------------------------- |
+| `2017b`          | `2017.1`                         |
 | `2017a`          | `2017.0`                         |
 
 On your application, you can access IANA timezone JSON data by importing the `"iana-tz-data"` module.
