@@ -24,6 +24,10 @@
     "url": "http://rafael.xavier.blog.br"
   },
   "main": "iana-tz-data.json",
+  "files": [
+    "LICENSE-MIT",
+    "iana-tz-data.json"
+  ],
   "dependencies": {},
   "devDependencies": {}
 }
