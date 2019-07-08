@@ -39,7 +39,7 @@ A JSON representation of the timezone transitions (actually, the output of `zdum
 
 ## Status
 
-Latest official release is version 2018i, published on 2018-12-30.
+Latest official release is version 2019b, published on 2019-07-01.
 
 ## Usage
 
@@ -53,6 +53,7 @@ We follow a semver corresponding version based on the official version. The majo
 
 | Official version | Our corresponding semver version |
 | ---------------- | -------------------------------- |
+| `2019b`          | `2019.1`                         |
 | `2018i`          | `2018.8`                         |
 | `2018g`          | `2018.6`                         |
 | `2018f`          | `2018.5`                         |
