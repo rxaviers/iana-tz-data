@@ -39,7 +39,7 @@ A JSON representation of the timezone transitions (actually, the output of `zdum
 
 ## Status
 
-Latest official release is version 2023c, published on 2023-06-09.
+Latest official release is version 2023c, published on 2023-03-28.
 
 ## Usage
 
