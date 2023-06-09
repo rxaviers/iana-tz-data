@@ -39,7 +39,7 @@ A JSON representation of the timezone transitions (actually, the output of `zdum
 
 ## Status
 
-Latest official release is version 2019c, published on 2019-09-11.
+Latest official release is version 2023c, published on 2023-06-09.
 
 ## Usage
 
@@ -52,7 +52,8 @@ npm install --save iana-tz-data
 We follow a semver corresponding version based on the official version. The major version corresponds to the year and the minor corresponds to the letter. The patch version is independent and used for any necessary package fixes.
 
 | Official version | Our corresponding semver version |
-| ---------------- | -------------------------------- |
+|------------------|----------------------------------|
+| `2023c`          | `2023.2`                         |
 | `2019c`          | `2019.2`                         |
 | `2019b`          | `2019.1`                         |
 | `2018i`          | `2018.8`                         |
